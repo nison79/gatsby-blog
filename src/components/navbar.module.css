@@ -1,0 +1,15 @@
+
+
+
+
+nav ul {
+    display:flex;
+    justify-content: flex-end;
+    background-color: aqua;
+    
+}
+
+nav li {
+    margin:1rem;
+    
+}
