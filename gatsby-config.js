@@ -14,9 +14,30 @@ module.exports = {
     person: {name:'George' , age:40},
   },
   plugins: [
+
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
+
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/
+        }
+      }
+    },
+
+    
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-material-ui`,
   
     {
       resolve: `gatsby-source-filesystem`,
