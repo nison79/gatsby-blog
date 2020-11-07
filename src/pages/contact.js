@@ -4,9 +4,11 @@ import Layout from '../components/Layout'
 const ContactPage = () => {
     return (
         <Layout>
-            <h2>Contact Me</h2>
+            <h1>Contact</h1>
             <article>
-                <p>info to Contact</p>
+                <p>email:georgenison@gmail.com</p>
+                <p>linkedin:georgenison@gmail.com</p>
+                <p>email:georgenison@gmail.com</p>
             </article>
             
         </Layout>

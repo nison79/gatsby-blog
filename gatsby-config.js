@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
+  
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,12 +26,6 @@ module.exports = {
       },
     },
 
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `texts`,
-        path: `${__dirname}/src/texts/`,
-      },
-    },
+
   ],
 }
