@@ -7,6 +7,7 @@ import Blob from '../assets/blob_6-3-6.svg'
 
 
 
+
 const IndexPage = ( ) => {
 
   return (
@@ -26,7 +27,7 @@ const IndexPage = ( ) => {
         
         
         
-      </Layout>
+    </Layout>
   )
   }
 

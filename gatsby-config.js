@@ -17,6 +17,15 @@ module.exports = {
 
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+          fonts: [
+                `poppins:300,400,500,600,700`       
+            ], display: 'swap'       
+        }
+    },
+      
 
     {
       resolve: 'gatsby-plugin-react-svg',
@@ -37,7 +46,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-material-ui`,
+    
   
     {
       resolve: `gatsby-source-filesystem`,
